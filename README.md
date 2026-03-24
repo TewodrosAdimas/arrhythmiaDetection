@@ -59,9 +59,7 @@ pip install torch torchvision pandas numpy scikit-learn tensorboard
 
 ## 🚀 Training the Model
 
-```python
-python train.py
-```
+
 
 Training includes:
 
@@ -74,9 +72,6 @@ Training includes:
 
 ## 🧪 Testing the Model
 
-```python
-python test.py
-```
 
 Evaluation metrics:
 
@@ -138,9 +133,6 @@ The CNN automatically learns:
 
 ## 📊 Results
 
-(Add your results here)
-
-Example:
 
 ```
 Test Accuracy: 92.4%
