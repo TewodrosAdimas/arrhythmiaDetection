@@ -135,9 +135,7 @@ The CNN automatically learns:
 
 
 ```
-Test Accuracy: 92.4%
-```
-
+Test Loss: 0.4108```
 ---
 
 ## 👨‍💻 Author
