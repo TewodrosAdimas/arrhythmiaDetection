@@ -1,4 +1,3 @@
-Here’s a clean and professional **README.md** for your 1D-CNN Arrhythmia Detection project:
 
 ---
 
@@ -166,7 +165,4 @@ MSc Artificial Intelligence (Milano-Bicocca)
 
 ---
 
-If you want, I can also:
-✅ turn this into a **GitHub-ready repo structure (train.py, model.py, dataset.py)**
-✅ or add **badges + professional GitHub styling**
-✅ or make a shorter “submission version” for your professor
+
