@@ -1,0 +1,19 @@
+# 🏆 ECG Arrhythmia Detection Model Benchmark Summary
+
+*Evaluated on 1456 Test ECG Beats (Sequence Length = 187)*
+
+| Model | Accuracy (%) | Sensitivity (%) | Specificity (%) | Precision (%) | F1-Score | ROC-AUC | PR-AUC | Test Loss | Params (K) | Latency (ms) | Throughput (sps) | Size (MB) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| resnet1d | 99.45 | 99.63 | 98.96 | 99.63 | 0.9963 | 0.9978 | 0.9988 | 0.0235 | 1574.0 | 3.58 | 5669.9 | 6.0 |
+| pretrained_resnet18 | 99.38 | 99.72 | 98.44 | 99.44 | 0.9958 | 0.9991 | 0.9997 | 0.0232 | 11177.0 | 6.41 | 962.1 | 42.64 |
+| bilstm | 98.21 | 98.88 | 96.36 | 98.7 | 0.9879 | 0.9953 | 0.9975 | 0.0579 | 189.1 | 9.91 | 5194.4 | 0.72 |
+| transformer1d | 97.12 | 97.39 | 96.36 | 98.68 | 0.9803 | 0.9943 | 0.9979 | 0.0831 | 105.2 | 2.9 | 4000.8 | 0.4 |
+| enhanced_cnn | 94.57 | 97.57 | 86.23 | 95.17 | 0.9636 | 0.9856 | 0.9949 | 0.1672 | 167.6 | 1.01 | 14855.9 | 0.64 |
+| baseline_cnn | 94.23 | 94.21 | 94.29 | 97.87 | 0.96 | 0.9854 | 0.9925 | 0.1589 | 203.2 | 0.54 | 25729.7 | 0.78 |
+
+### Metrics Legend:
+- **Sensitivity / Recall**: Detection rate of abnormal cardiac arrhythmia beats (minimizing False Negatives).
+- **Specificity**: Detection rate of normal sinus rhythm beats (minimizing False Positives).
+- **Latency (ms)**: Inference delay per single heartbeat sample on cpu.
+- **Throughput (sps)**: Inferences per second in batched mode (Batch Size = 128).
+- **Params (K)**: Total model parameter count in thousands.

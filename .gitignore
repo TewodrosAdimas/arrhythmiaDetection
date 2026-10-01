@@ -48,3 +48,4 @@ Thumbs.db
 
 # Output results (keep directory, ignore large caches)
 results/checkpoints/
+results/logs/
