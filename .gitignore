@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch checkpoints & Weights
+*.pth
+*.pt
+*.ckpt
+
+# TensorBoard & Logs
+runs/
+logs/
+events.out.tfevents.*
+
+# Dataset Archives (keep raw/processed CSVs if needed, ignore large zips)
+*.zip
+*.tar.gz
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Output results (keep directory, ignore large caches)
+results/checkpoints/
